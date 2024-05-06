@@ -1,0 +1,8 @@
+this is codes for training model and runing transfer learnings. 
+run follwoing codes for TL.
+
+python3.9 main.py --train-size 13 --val-size 0 --test-size 0  --epochs 2000 --start-epoch 1000 --resume ./checkpoint.pth.tar --batch-size 2  --optim 'Adam' --lr 0.0024156  --n-conv 3 --n-h 2 --atom-fea-len 64 --h-fea-len 128  --disable-cuda --task 'regression' ./root_dir/
+
+
+which "./checkpoint.pth.tar" is the address of the base model. 
+Change number of epochs and model paramters accordingly. 

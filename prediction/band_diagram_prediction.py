@@ -79,11 +79,11 @@ def predict_band_diagram(my_struc):
     import numpy as np
 
     Set following path according to saved locations.
-    BG2_MODEL_PATH = "path_to_model_file" 
-    BG2_PREDICTION_DIR = "path_to_predictor_directory"
-    VB_3D_MODEL_PATH = "path_to_model_file"
-    VB_3D_PREDICTION_DIR = "path_to_predictor_directory"
-    VB_3D_PREDICTOR_FILE_PATH = "path_to_predict.py_file"
+    BG2_MODEL_PATH = "path_to_model_file: ./bandgap_model/m2-rs464_50epoch.pth.tar" 
+    BG2_PREDICTION_DIR = "path_to_predictor_directory: ./bandgap_model/cgcnn_prediction/"
+    VB_3D_MODEL_PATH = "path_to_model_file: ../CGCNN/3D-TL-CGCNN/best_model.pth.tar"
+    VB_3D_PREDICTION_DIR = "path_to_predictor_directory: ../CGCNN/3D-TL-CGCNN/test_prediction_root_dir/"
+    VB_3D_PREDICTOR_FILE_PATH = "path_to_predict.py_file ../CGCNN/3D-TL-CGCNN/predict.py"
 
 
     list_of_miller_indexes = [(0, 0, 1), (1, 0, 0), (1, 2, 0), (0, 2, 0)] # Add more if wanted

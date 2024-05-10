@@ -9,7 +9,7 @@ if you use finding of this work, kindly cite the following paper.
 for training use the root directory to store slab cif files. also provide the targets with cif file name as id_prop.csv file.
 using following command, training from scrach can be done.
 
-\n
+
 ~ python3.9 main.py --train-size 4000 --val-size 673 --test-size 673 --epochs 3000 --batch-size 64  --optim 'Adam' --lr 0.0024156  --n-conv 3 --n-h 5 --atom-fea-len 64 --h-fea-len 64  --disable-cuda --task 'regression' ./root_dir/
 
 

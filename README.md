@@ -34,3 +34,8 @@ specify the address of the cif file to be read at the end of the band_diagram_pr
 
 ~ python3.9 band_diagram_prediction.py
 
+
+# Citation
+This repository is part of the following published work in Materials Today Physics. 
+Haghshenas Y, Wong WP, Sethu V, Amal R, Kumar PV, Teoh WY. Full prediction of band potentials in semiconductor materials. Materials Today Physics. 2024 Aug 1;46:101519.
+https://www.sciencedirect.com/science/article/pii/S2542529324001950
